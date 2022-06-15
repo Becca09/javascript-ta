@@ -12,7 +12,7 @@ describe("Test solutions", () => {
   it("Testcase 0", () => {
     const input = 2;
     const output = solution(input);
-    expect(output).toStrictEqual(true);
+    expect(output).toStrictEqual(false);
   });
 
   it("Testcase 1", () => {

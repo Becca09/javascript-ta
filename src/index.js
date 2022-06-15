@@ -1,6 +1,13 @@
 // complete the function
 function prime (num) {
-  // code goes here
+  let isPrime = Math.ceil(Math.sqrt(num));
+
+  for (let i = 2; i <= isPrime; i++){
+    if (num % i === 0){
+      return false
+    }
+  }
+  return true
 }
 
 function solution (arg) {
